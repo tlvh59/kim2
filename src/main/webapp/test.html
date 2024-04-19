@@ -11,6 +11,10 @@ function joinMember( ) {
 	frm.username.focus( ); return false;
 	}
 	
+	if(!frm.gender[0].checked && !frm.gender[1].checked) {
+		alert("성별을 선택해 주세요.");
+		frm.gender[0].focus( ); return false;
+		}
 	if(frm.job.selectedIndex < 1) {
 	alert("직업을 선택해 주세요.");
 	frm.job.focus( ); return false;

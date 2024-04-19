@@ -4,5 +4,6 @@ module kdb {
 	requires java.naming;
 	requires commons.logging;
 	requires com.oracle.database.jdbc;
+	requires cos;
 	
 }

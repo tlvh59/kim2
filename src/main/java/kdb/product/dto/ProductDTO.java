@@ -8,6 +8,7 @@ public class ProductDTO {
 	private int product_price;
 	private String product_content;
 	private String product_status;
+
 	public int getProduct_number() {
 		return product_number;
 	}

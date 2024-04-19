@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-secondary">삭제</button>
-                                    <button type="reset" class="btn btn-secondary">취소</button>
+                                    <button type="reset" class="btn btn-secondary" onclick="location.href='./ProductSelect.pr'">취소</button>
                                 </div>
                             </fieldset>
                         </form>
@@ -48,7 +48,7 @@
                                 <a href="./ProductSelect.pr" class="btn btn-primary btn-block">상품 목록</a>
                             </div>
                             <div class="col-md-4">
-                                <a href="./ProductInsertView.pr" class="btn btn-success btn-block">상품 입력</a>
+                                <a href="./ProductInsertView.pr" class="btn btn-success btn-block">상품 등록</a>
                             </div>
                             <div class="col-md-4">
                                 <a href="./ProductUpdateView.pr?product_number=${param.product_number}" class="btn btn-warning btn-block">상품 수정</a>
